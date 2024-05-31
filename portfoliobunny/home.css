@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding: 40px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 5px auto;
+    width: 90%;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+.container {
+    width: 80%;
+    max-width: 2000px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.intro {
+    max-width: 60%;
+}
+
+.intro h2 {
+    font-size: 1.5em;
+    color: #00bfff;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.intro h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.intro h3 span {
+    color: #00bfff;
+}
+
+.intro p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00bfff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #009acd;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 5px solid #00bfff;
+    transition: transform 0.3s;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+}
