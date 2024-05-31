@@ -130,6 +130,7 @@ nav ul li a:hover {
 
 .profile {
     position: relative;
+    border-radius: 50%;
 }
 
 .profile img {
